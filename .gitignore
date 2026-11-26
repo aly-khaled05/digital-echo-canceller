@@ -1,0 +1,28 @@
+# MATLAB / Octave temporary & backup files
+*.asv
+*.m~
+*.autosave
+*.mex*
+octave-workspace
+
+# Large generated audio & workspace data (uncomment if you want to ignore)
+# outputs/audio/*.wav
+*.mat
+
+# LaTeX build artifacts (for report/)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
